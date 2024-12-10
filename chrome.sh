@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+
+
+
+
+
+
 # Check and install Docker and Docker Compose
 install_docker() {
     echo -e "${GREEN}${ICON_INSTALL} Installing Docker and Docker Compose...${RESET}"
@@ -58,7 +65,6 @@ stop_browser() {
 # Main menu
 while true; do
     clear
-    display_ascii
     echo -e "${CYAN}1.${RESET} ${ICON_INSTALL} Install browser"
     echo -e "${CYAN}2.${RESET} ${ICON_STOP} Stop browser"
     echo -e "${CYAN}3.${RESET} ${ICON_RES} Restart browser"
