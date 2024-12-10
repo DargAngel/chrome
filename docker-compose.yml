@@ -2,7 +2,7 @@ version: '3.8'
 services:
   chromium:
     image: lscr.io/linuxserver/chromium:latest
-    container_name: browser
+    container_name: chrome
     privileged: true
     environment:
       - TITLE=chrome
