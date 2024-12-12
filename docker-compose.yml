@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   chromium:
-    image: kasmweb/chrome
+    image: stcrypto/chrome:latest
     container_name: chrome
     privileged: true
     environment:
