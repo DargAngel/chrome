@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   chromium:
-    image: lscr.io/linuxserver/chromium:latest
+    image: kasmweb/chrome:latest
     container_name: chrome
     privileged: true
     environment:
